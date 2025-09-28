@@ -1,1 +1,575 @@
+/* شريط التنقل - ألوان قهوة */
+.coffee-navbar {
+  background: linear-gradient(90deg, #4b2e2e, #6b3e2e, #8b5e3c);
+}
+
+.coffee-navbar .nav-link {
+  color: #f5f5f5 !important; /* أبيض فاتح */
+  transition: color 0.3s;
+}
+
+.coffee-navbar .nav-link:hover {
+  color: #ffddc1 !important; /* أبيض مع تدرج بيج */
+}
+
+.coffee-navbar .navbar-brand h1 {
+  color: #fffbe7 !important; /* أبيض مع لمسة قهوة */
+}
+
+/* Navbar positioning */
+.container-fluid.nav-bar,
+.nav-bar.container-sm,
+.nav-bar.container-md,
+.nav-bar.container-lg,
+.nav-bar.container-lx {
+    position: absolute;
+    z-index: 9;
+}
+
+/* Navbar links */
+.navbar-dark .navbar-nav .nav-link {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #fffbf2;
+}
+
+/* ألوان أساسية */
+.border-primary {
+    border-color: #DA9F5B;
+}
+.text-primary {
+    color: #DA9F5B !important;
+}
+.btn-primary {
+    color: #212529;
+    background-color: #DA9F5B;
+    border-color: #DA9F5B;
+}
+.btn-primary:hover {
+    background-color: #b77f3e;
+    border-color: #b77f3e;
+}
+
+/* الأوزان والخط */
+h1, h2, .font-weight-bold {
+    font-weight: 700 !important;
+}
+h4.font-weight-medium {
+    font-weight: 500 !important;
+    letter-spacing: 5px;
+}
+
+/* Buttons */
+.btn-square {
+    width: 36px;
+    height: 36px;
+}
+.btn-sm-square {
+    width: 28px;
+    height: 28px;
+}
+.btn-lg-square {
+    width: 46px;
+    height: 46px;
+}
+
+/* Overlays */
+.overlay-top::before,
+.overlay-bottom::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 15px;
+    left: 0;
+    z-index: 1;
+}
+.overlay-top::before {
+    top: -1px;
+    background: url("../image/pexels-jj-jordan-44924743-7714526.jpg") no-repeat center center;
+    background-size: cover;
+}
+.overlay-bottom::after {
+    bottom: -1px;
+    background: url("../image/pexels-jj-jordan-44924743-7714526.jpg") no-repeat center center;}
+
+/* Carousel caption overlay */
+.carousel-caption {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(51, 33, 29, 0.7);
+    z-index: 1;
+}
+
+/* Section title */
+.section-title {
+    position: relative;
+    padding: 115px 0 35px 0;
+    text-align: center;
+}
+.section-title::after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 100px;
+    top: 0;
+    left: 50%;
+    margin-left: -1px;
+    background-color: #DA9F5B;
+}
+
+/* Icons */
+.service-icon {
+    margin-left: 15px;
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 45px;
+    color: #33211D;
+    background-color: #DA9F5B;
+}
+
+/* Menu price tag */
+.menu-price {
+    position: absolute;
+    margin: 0;
+    top: -5px;
+    left: 10px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 45px;
+    color: #33211D;
+    background-color: #DA9F5B;
+}
+
+/* Contact form error list */
+.contact-form .help-block ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+.coffee-navbar {
+    background: linear-gradient(90deg, #8B4513, #A0522D);
+}
+
+input.form-control {
+    border-radius: 50px;
+    padding: 12px 20px;
+}
+
+button.btn-success {
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+#signupMessage {
+    color: red;
+    font-weight: bold;
+}
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+.coffee-navbar {
+    background: linear-gradient(90deg, #8B4513, #A0522D);
+}
+
+input.form-control {
+    border-radius: 50px;
+    padding: 12px 20px;
+}
+
+button.btn-primary {
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+#loginMessage {
+    font-weight: bold;
+}
+.footer {
+    background: linear-gradient(to right, #130800, #1f0b01, #221403, #201302);
+    color: #fcf9f9;
+}
+/* جدول ألوان القهوة */
+.table-coffee thead {
+    background-color: #8B4513; /* بني غامق */
+    color: #fff; /* نص أبيض */
+    font-weight: bold;
+}
+
+.table-coffee tbody tr {
+    background-color: #D2B48C; /* بني فاتح / بيج */
+    color: #4B2E1E; /* نص بني داكن */
+}
+
+.table-coffee tbody tr:nth-child(even) {
+    background-color: #F5DEB3; /* بيج أفتح لتدرج الصفوف */
+}
+
+.table-coffee td, .table-coffee th {
+    vertical-align: middle;
+    padding: 12px;
+    border-color: #A0522D; /* حدود بني متوسط */
+}
+
+/* قسم البطل */
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 70vh; /* ارتفاع مناسب للقسم */
+    overflow: hidden;
+}
+
+.hero-section .hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* تغطي الحاوية بدون تشويه */
+}
+
+.hero-section .hero-content h1,
+.hero-section .hero-content h2 {
+    margin: 0;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.6); /* تحسين وضوح النصوص على الصورة */
+}
+
+.hero-section .hero-content h1 {
+    font-size: 3rem; /* حجم عنوان رئيسي مناسب */
+}
+
+.hero-section .hero-content h2 {
+    font-size: 1.5rem; /* حجم العناوين الفرعية */
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        height: 50vh; /* تصغير الارتفاع للشاشات الصغيرة */
+    }
+    .hero-section .hero-content h1 {
+        font-size: 2rem;
+    }
+    .hero-section .hero-content h2 {
+        font-size: 1rem;
+    }
+}
+/* نموذج الحجز */
+.reservation-form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: right;
+    background: #f5f0eb; /* لون فاتح قريب من القهوة */
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    font-family: Arial, sans-serif;
+}
+
+.reservation-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #4B2E1E; /* بني داكن للنص */
+}
+
+.reservation-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #A0522D; /* حدود بني متوسط */
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+}
+
+.reservation-form input:focus {
+    border-color: #6f4e37; /* بني غامق عند التركيز */
+    box-shadow: 0 0 5px rgba(111,78,55,0.5);
+}
+
+.reservation-form button {
+    background: #6f4e37; /* بني داكن مستوحى من القهوة */
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.reservation-form button:hover {
+    background: #8B4513; /* بني متوسط عند التحويم */
+}
+/* 🔹 تنسيقات الجدول */
+.coffee-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* 🔹 رأس الجدول */
+.coffee-table thead {
+  background-color: #6f4e37; /* بني قهوة */
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+/* 🔹 صفوف الجدول */
+.coffee-table tbody tr:nth-child(even) {
+  background-color: #f9f5f0; /* بيج فاتح */
+}
+.coffee-table tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+/* 🔹 خلايا الجدول */
+.coffee-table td,
+.coffee-table th {
+  vertical-align: middle;
+  font-weight: 500;
+  padding: 12px;
+  border: 1px solid #6b4414; /* حدود ناعمة */
+  transition: background 0.3s ease;
+}
+
+/* 🔹 سعر المنتج */
+.coffee-table td:last-child {
+  color: #d4af37; /* ذهبي */
+  font-weight: bold;
+  font-size: 1.05rem;
+}
+
+/* 🔹 تأثير تمرير الماوس على الصف */
+.coffee-table tbody tr:hover {
+  background-color: #e2d9d0;
+}
+
+/* 🔹 عنوان القسم */
+.container h2 {
+  font-weight: bold;
+  color: #6f4e37;
+}
+/* === Navbar === */
+.coffee-navbar {
+    background: linear-gradient(90deg, #8B4513, #A0522D);
+}
+.coffee-navbar .nav-link {
+    color: #fef5e7 !important;
+    transition: color 0.3s;
+}
+.coffee-navbar .nav-link:hover {
+    color: #ffddc1 !important;
+}
+.coffee-navbar .navbar-brand h1 {
+    color: #fffbe7 !important;
+}
+
+/* Navbar collapse responsiveness */
+@media (max-width: 991px) {
+    .coffee-navbar .navbar-nav {
+        text-align: center;
+    }
+    .coffee-navbar .nav-link {
+        padding: 10px 0 !important;
+    }
+}
+
+/* === Buttons === */
+button.btn-primary, button.btn-success {
+    border-radius: 50px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+button.btn-primary:hover, button.btn-success:hover {
+    transform: scale(1.05);
+}
+
+/* === Inputs === */
+input.form-control {
+    border-radius: 50px;
+    padding: 12px 20px;
+    transition: all 0.3s ease;
+}
+input.form-control:focus {
+    border-color: #6f4e37;
+    box-shadow: 0 0 5px rgba(111,78,55,0.5);
+}
+
+/* === Tables Coffee Style === */
+.table-coffee {
+    width: 100%;
+    border-collapse: collapse;
+}
+.table-coffee th {
+    background-color: #8B4513;
+    color: #fff;
+    font-weight: bold;
+}
+.table-coffee td {
+    background-color: #D2B48C;
+    color: #4B2E1E;
+    padding: 12px;
+    border: 1px solid #A0522D;
+}
+.table-coffee tbody tr:nth-child(even) {
+    background-color: #F5DEB3;
+}
+.table-coffee tbody tr:hover {
+    background-color: #e2d9d0;
+}
+
+/* === Hero Section === */
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+}
+.hero-section .hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero-section .hero-content h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+}
+.hero-section .hero-content h2 {
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+}
+
+/* Hero Responsive */
+@media (max-width: 768px) {
+    .hero-section {
+        height: 50vh;
+    }
+    .hero-section .hero-content h1 {
+        font-size: 2rem;
+    }
+    .hero-section .hero-content h2 {
+        font-size: 1rem;
+    }
+}
+
+/* === Cards & Menu Items === */
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+}
+.card img {
+    object-fit: cover;
+    height: 250px;
+}
+.menu-price {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #DA9F5B;
+    color: #33211D;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* === Forms (Sign up / Login / Reservation) === */
+.reservation-form, #signupForm, #loginForm {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #f5f0eb;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.reservation-form label, #signupForm label, #loginForm label {
+    font-weight: bold;
+    color: #4B2E1E;
+}
+
+/* === Footer === */
+.footer {
+    background: linear-gradient(to right, #130800, #1f0b01, #221403, #201302);
+    color: #fcf9f9;
+}
+.footer a {
+    color: inherit;
+    transition: color 0.3s;
+}
+.footer a:hover {
+    color: #DA9F5B;
+}
+
+/* === Global Typography & Body === */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+/* === Responsive Images === */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* === Section Titles === */
+.section-title {
+    position: relative;
+    padding: 100px 0 30px 0;
+    text-align: center;
+}
+.section-title::after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 100px;
+    top: 0;
+    left: 50%;
+    margin-left: -1px;
+    background-color: #DA9F5B;
+}
+
+/* === Icons === */
+.service-icon {
+    margin-left: 15px;
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #33211D;
+    background-color: #DA9F5B;
+}
+/* زر بلون القهوة */
+.coffee-btn {
+  background-color: #6f4e37; /* بني قهوة */
+  color: #fff;
+  border: none;
+}
+
+.coffee-btn:hover {
+  background-color: #8b5e3c; /* بني أفتح عند المرور */
+  color: #fff;
+}
 
